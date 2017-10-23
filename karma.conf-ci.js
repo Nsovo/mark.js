@@ -136,28 +136,32 @@ module.exports = config => {
             deviceName: 'Android GoogleAPI Emulator',
             browserName: 'Chrome',
             platformVersion: '4',
-            platformName: 'Android'
+            platformName: 'Android',
+            appiumVersion: '1.5.3'
         },
         'SL_Android_5': {
             base: 'SauceLabs',
             deviceName: 'Android GoogleAPI Emulator',
             browserName: 'Chrome',
             platformVersion: '5.1',
-            platformName: 'Android'
+            platformName: 'Android',
+            appiumVersion: '1.6.4'
         },
         'SL_Android_6': {
             base: 'SauceLabs',
             deviceName: 'Android GoogleAPI Emulator',
             browserName: 'Chrome',
             platformVersion: '6',
-            platformName: 'Android'
+            platformName: 'Android',
+            appiumVersion: '1.6.4'
         },
         'SL_Android_7_1': {
             base: 'SauceLabs',
             deviceName: 'Android GoogleAPI Emulator',
             browserName: 'Chrome',
             platformVersion: '7.1',
-            platformName: 'Android'
+            platformName: 'Android',
+            appiumVersion: '1.6.4'
         }
     };
     config.set({
