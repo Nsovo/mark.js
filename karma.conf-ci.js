@@ -65,13 +65,13 @@ module.exports = config => {
         'SL_OSX_Safari_7': {
             base: 'SauceLabs',
             browserName: 'safari',
-            platform: 'OS X 10.8',
+            platform: 'OS X 10.9',
             version: '7'
         },
         'SL_OSX_Safari_8': {
             base: 'SauceLabs',
             browserName: 'safari',
-            platform: 'OS X 10.8',
+            platform: 'OS X 10.10',
             version: '8'
         },
         'SL_OSX_Safari_9': {
