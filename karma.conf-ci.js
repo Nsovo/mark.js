@@ -8,138 +8,143 @@
 module.exports = config => {
     // Define Sauce Labs browsers
     var customLaunchers = {
-        "SL_Win_Chrome_30": {
-            base: "SauceLabs",
-            browserName: "chrome",
-            platform: "Windows 10",
-            version: "30"
+        'SL_Win_Chrome_30': {
+            base: 'SauceLabs',
+            browserName: 'chrome',
+            platform: 'Windows 10',
+            version: '30'
         },
-        "SL_Win_Chrome_40": {
-            base: "SauceLabs",
-            browserName: "chrome",
-            platform: "Windows 10",
-            version: "40"
+        'SL_Win_Chrome_40': {
+            base: 'SauceLabs',
+            browserName: 'chrome',
+            platform: 'Windows 10',
+            version: '40'
         },
-        "SL_Win_Chrome_50": {
-            base: "SauceLabs",
-            browserName: "chrome",
-            platform: "Windows 10",
-            version: "50"
+        'SL_Win_Chrome_50': {
+            base: 'SauceLabs',
+            browserName: 'chrome',
+            platform: 'Windows 10',
+            version: '50'
         },
-        "SL_Win_Chrome_Latest": {
-            base: "SauceLabs",
-            browserName: "chrome",
-            platform: "Windows 10",
-            version: "latest"
+        'SL_Win_Chrome_60': {
+            base: 'SauceLabs',
+            browserName: 'chrome',
+            platform: 'Windows 10',
+            version: '60'
         },
-        "SL_Win_Firefox_30": {
-            base: "SauceLabs",
-            browserName: "firefox",
-            platform: "Windows 10",
-            version: "30"
+        'SL_Win_Chrome_Latest': {
+            base: 'SauceLabs',
+            browserName: 'chrome',
+            platform: 'Windows 10',
+            version: 'latest'
         },
-        "SL_Win_Firefox_40": {
-            base: "SauceLabs",
-            browserName: "firefox",
-            platform: "Windows 10",
-            version: "40"
+        'SL_Win_Firefox_30': {
+            base: 'SauceLabs',
+            browserName: 'firefox',
+            platform: 'Windows 10',
+            version: '30'
         },
-        "SL_Win_Firefox_50": {
-            base: "SauceLabs",
-            browserName: "firefox",
-            platform: "Windows 10",
-            version: "50"
+        'SL_Win_Firefox_40': {
+            base: 'SauceLabs',
+            browserName: 'firefox',
+            platform: 'Windows 10',
+            version: '40'
         },
-        "SL_Win_Firefox_Latest": {
-            base: "SauceLabs",
-            browserName: "firefox",
-            platform: "Windows 10",
-            version: "latest"
+        'SL_Win_Firefox_50': {
+            base: 'SauceLabs',
+            browserName: 'firefox',
+            platform: 'Windows 10',
+            version: '50'
         },
-        "SL_Win_Opera_Latest": {
-            base: "SauceLabs",
-            browserName: "opera",
-            platform: "Windows 7",
-            version: "latest"
+        'SL_Win_Firefox_Latest': {
+            base: 'SauceLabs',
+            browserName: 'firefox',
+            platform: 'Windows 10',
+            version: 'latest'
         },
-        "SL_Win_Safari_5": {
-            base: "SauceLabs",
-            browserName: "safari",
-            platform: "Windows 7",
-            version: "5.1"
+        'SL_OSX_Safari_7': {
+            base: 'SauceLabs',
+            browserName: 'safari',
+            platform: 'OS X 10.8',
+            version: '6'
         },
-        "SL_OSX_Safari_6": {
-            base: "SauceLabs",
-            browserName: "safari",
-            platform: "OS X 10.8",
-            version: "6"
+        'SL_OSX_Safari_8': {
+            base: 'SauceLabs',
+            browserName: 'safari',
+            platform: 'OS X 10.8',
+            version: '6'
         },
-        "SL_OSX_Safari_9": {
-            base: "SauceLabs",
-            browserName: "safari",
-            platform: "OS X 10.11",
-            version: "9"
+        'SL_OSX_Safari_9': {
+            base: 'SauceLabs',
+            browserName: 'safari',
+            platform: 'OS X 10.11',
+            version: '9'
         },
-        "SL_macOS_Safari_10": {
-            base: "SauceLabs",
-            browserName: "safari",
-            platform: "macOS 10.12",
-            version: "10.0"
+        'SL_macOS_Safari_10': {
+            base: 'SauceLabs',
+            browserName: 'safari',
+            platform: 'macOS 10.12',
+            version: '10.0'
         },
-        "SL_Win_IE_9": {
-            base: "SauceLabs",
-            browserName: "internet explorer",
-            platform: "Windows 7",
-            version: "9"
+        'SL_Win_IE_9': {
+            base: 'SauceLabs',
+            browserName: 'internet explorer',
+            platform: 'Windows 7',
+            version: '9'
         },
-        "SL_Win_IE_10": {
-            base: "SauceLabs",
-            browserName: "internet explorer",
-            platform: "Windows 7",
-            version: "10"
+        'SL_Win_IE_10': {
+            base: 'SauceLabs',
+            browserName: 'internet explorer',
+            platform: 'Windows 7',
+            version: '10'
         },
-        "SL_Win_IE_11": {
-            base: "SauceLabs",
-            browserName: "internet explorer",
-            platform: "Windows 7",
-            version: "11"
+        'SL_Win_IE_11': {
+            base: 'SauceLabs',
+            browserName: 'internet explorer',
+            platform: 'Windows 7',
+            version: '11'
         },
-        "SL_Win_Edge_13": {
-            base: "SauceLabs",
-            browserName: "microsoftedge",
-            platform: "Windows 10",
-            version: "13.10586"
+        'SL_Win_Edge_13': {
+            base: 'SauceLabs',
+            browserName: 'microsoftedge',
+            platform: 'Windows 10',
+            version: '13.10586'
         },
-        "SL_Win_Edge_Latest": {
-            base: "SauceLabs",
-            browserName: "microsoftedge",
-            platform: "Windows 10",
-            version: "latest"
+        'SL_Win_Edge_Latest': {
+            base: 'SauceLabs',
+            browserName: 'microsoftedge',
+            platform: 'Windows 10',
+            version: 'latest'
         },
-        "SL_iOS_8": {
-            base: "SauceLabs",
-            browserName: "iphone",
-            version: "8.4"
+        'SL_iOS_8': {
+            base: 'SauceLabs',
+            browserName: 'iphone',
+            version: '8.4'
         },
-        "SL_iOS_9": {
-            base: "SauceLabs",
-            browserName: "iphone",
-            version: "9.3"
+        'SL_iOS_9': {
+            base: 'SauceLabs',
+            browserName: 'iphone',
+            version: '9.3'
         },
-        "SL_iOS_10": {
-            base: "SauceLabs",
-            browserName: "iphone",
-            version: "10.0"
+        'SL_iOS_10': {
+            base: 'SauceLabs',
+            browserName: 'iphone',
+            version: '10.0'
         },
-        "SL_Android_4": {
-            base: "SauceLabs",
-            browserName: "android",
-            version: "4.4"
+        'SL_Android_4': {
+            base: 'SauceLabs',
+            browserName: 'android',
+            version: '4.4'
         },
-        "SL_Android_5": {
-            base: "SauceLabs",
-            browserName: "android",
-            version: "5.1"
+        'SL_Android_5': {
+            base: 'SauceLabs',
+            browserName: 'android',
+            version: '5.1'
+        },
+        'SL_Android_6': {
+            base: 'SauceLabs',
+            browserName: 'android',
+            version: '6.0'
         }
     };
     config.set({
