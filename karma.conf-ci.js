@@ -133,13 +133,24 @@ module.exports = config => {
         },
         'SL_Android_4': {
             base: 'SauceLabs',
-            browserName: 'android',
-            version: '4.4'
+            deviceName: 'Android GoogleAPI Emulator',
+            browserName: 'Chrome',
+            platformVersion: '4',
+            platformName: 'Android'
         },
         'SL_Android_5': {
             base: 'SauceLabs',
-            browserName: 'android',
-            version: '5.1'
+            deviceName: 'Android GoogleAPI Emulator',
+            browserName: 'Chrome',
+            platformVersion: '5.1',
+            platformName: 'Android'
+        },
+        'SL_Android_6': {
+            base: 'SauceLabs',
+            deviceName: 'Android GoogleAPI Emulator',
+            browserName: 'Chrome',
+            platformVersion: '6',
+            platformName: 'Android'
         },
         'SL_Android_7_1': {
             base: 'SauceLabs',
