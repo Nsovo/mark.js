@@ -141,10 +141,12 @@ module.exports = config => {
             browserName: 'android',
             version: '5.1'
         },
-        'SL_Android_6': {
+        'SL_Android_7_1': {
             base: 'SauceLabs',
-            browserName: 'android',
-            version: '6.0'
+            deviceName: 'Android GoogleAPI Emulator',
+            browserName: 'Chrome',
+            platformVersion: '7.1',
+            platformName: 'Android'
         }
     };
     config.set({
