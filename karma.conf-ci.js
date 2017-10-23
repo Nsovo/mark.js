@@ -137,7 +137,7 @@ module.exports = config => {
             browserName: 'Chrome',
             platformVersion: '4',
             platformName: 'Android',
-            appiumVersion: '1.5.3'
+            appiumVersion: '1.4.16'
         },
         'SL_Android_5': {
             base: 'SauceLabs',
