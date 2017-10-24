@@ -131,7 +131,7 @@ module.exports = config => {
             browserName: 'iphone',
             version: '10.0'
         },
-        'SL_Android_4': {
+        'SL_Android_4_1': {
             base: 'SauceLabs',
             deviceName: 'Android GoogleAPI Emulator',
             browserName: 'Browser',
@@ -139,10 +139,10 @@ module.exports = config => {
             platformName: 'Android',
             appiumVersion: '1.6.4'
         },
-        'SL_Android_5': {
+        'SL_Android_5_1': {
             base: 'SauceLabs',
             deviceName: 'Android GoogleAPI Emulator',
-            browserName: 'Chrome',
+            browserName: 'Browser',
             platformVersion: '5.1',
             platformName: 'Android',
             appiumVersion: '1.6.4'
